@@ -1,0 +1,10 @@
+// VARIABILES
+@use "./_partials/variabiles" as *;
+// MIXINS
+@use "./_partials/minxis" as *;
+
+body {
+	@include center();
+
+	height: 100vh;
+}
