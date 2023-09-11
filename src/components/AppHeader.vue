@@ -67,7 +67,9 @@ export default {
 				<img src="../../public/img/dc-logo.png" alt="" />
 			</div>
 			<ul>
-				<li v-for="link in links"><a :href="link.url" :class="link.active ? 'active' : ''"></a>{{ link.text }}</li>
+				<li v-for="link in links" :key="link.text" :class="link.active ? 'active' : ''">
+					<a :href="link.url">{{ link.text }} </a>
+				</li>
 			</ul>
 		</div>
 	</header>

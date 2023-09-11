@@ -5,6 +5,16 @@ export default {
 	},
 };
 </script>
-<template></template>
+<template>
+	<main>
+		<div class="container"></div>
+	</main>
+</template>
 
-<style></style>
+<style lang="scss" scoped>
+.container {
+	background-color: rgb(21, 19, 30);
+	width: 100%;
+	height: 450px;
+}
+</style>
