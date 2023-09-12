@@ -19,7 +19,7 @@ export default {
 
 <template>
 	<AppHeader />
-	<AppCard />
+	<AppCard v-for="card in listCard" :key="card.index" :thumb="card.thumb" :series="card.series" />
 	<AppFooter />
 </template>
 

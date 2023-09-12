@@ -74,9 +74,7 @@ export default {
 		</div>
 	</header>
 	<main>
-		<div class="wrap">
-			<img src="../../public/img/jumbotron.jpg" alt="" />
-		</div>
+		<div class="jumbotron"></div>
 	</main>
 </template>
 
@@ -103,5 +101,11 @@ li {
 }
 .active {
 	background-color: aqua;
+}
+.jumbotron {
+	width: 100%;
+	height: 400px;
+	background-image: url(../../public/img/jumbotron.jpg);
+	background-attachment: fixed;
 }
 </style>
